@@ -1,4 +1,4 @@
-# [Machine Learning] 1st Proeject
+# 1st Proeject in Machine Learning
 
 <p align="center">
     <b>MSc in Data Science</b> <br>
@@ -7,7 +7,7 @@
     December 2023
 </p>
 
-<p align="justify"> The first objective of this project was to explore and <b>analyze the Breast Cancer Dataset [^1] and develop a classification model</b> by applying data visualization, statistical summaries, and multiple machine learning algorithms to identify the most accurate model, evaluate its performance using metrics like accuracy and confusion matrix, and validate results through a proper training/test split or cross-validation. The second part of the project focused on performing a <b>regression analysis using the Diabetes Dataset [^2]</b>, involving a comprehensive examination of the data through statistical summaries, distribution and correlation plots, feature engineering techniques such as normalization and standardization, and the evaluation and tuning of multiple regression algorithms to identify and optimize the best-performing model. </p>
+<p align="justify"> The first objective of this project was to explore and <b>analyze the Breast Cancer Dataset <sup><a href="#footnote1">1</a></sup> and develop a classification model</b> by applying data visualization, statistical summaries, and multiple machine learning algorithms to identify the most accurate model, evaluate its performance using metrics like accuracy and confusion matrix, and validate results through a proper training/test split or cross-validation. The second part of the project focused on performing a <b>regression analysis using the Diabetes Dataset <sup><a href="#footnote2">2</a></sup></b>, involving a comprehensive examination of the data through statistical summaries, distribution and correlation plots, feature engineering techniques such as normalization and standardization, and the evaluation and tuning of multiple regression algorithms to identify and optimize the best-performing model. </p>
 
 ## 🧪 Results
 
@@ -49,7 +49,15 @@
 - Visualizations were created using **Matplotlib** and **Seaborn**.
 - Full implementation details and plots are available in the [`notebooks/`](./notebooks/) folder.
 
+
 ---
 
-[^1]: [Breast Cancer Database](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
-[^2]: [Diabetes Database](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html)
+<p id="footnote1">
+  <sup>1</sup>
+  <a href="https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic" target="_blank">Breast Cancer Database</a>
+</p>
+
+<p id="footnote2">
+  <sup>2</sup>
+  <a href="https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html" target="_blank">Diabetes Database</a>
+</p>
